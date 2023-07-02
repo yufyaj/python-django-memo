@@ -1,6 +1,6 @@
 from django.apps import AppConfig
 
 
-class MemoConfig(AppConfig):
+class TodoConfig(AppConfig):
     default_auto_field = 'django.db.models.BigAutoField'
-    name = 'memo'
+    name = 'todo'

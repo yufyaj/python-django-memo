@@ -1,1 +1,1 @@
-# python-django-memo
+# python-django-todo
