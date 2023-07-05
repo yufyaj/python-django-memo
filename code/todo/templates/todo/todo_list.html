@@ -1,0 +1,18 @@
+<h1>Todo List</h1>
+
+<table>
+    <thead>
+        <tr>
+        <th scope="col">タイトル</th>
+        <th scope="col">状態</th>
+        </tr>
+    </thead>
+    <tbody>
+    {% for task in tasks %}
+    <tr>
+        <td>{{ task.title }}</td>
+        <td>{{ task.status }}</td>
+    </tr>
+    {% endfor %}
+    </tbody>
+</table>
